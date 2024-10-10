@@ -1,17 +1,1 @@
-{
-  "functions": [
-    {
-      "source": "functions",
-      "codebase": "default",
-      "ignore": [
-        "node_modules",
-        ".git",
-        "firebase-debug.log",
-        "firebase-debug.*.log"
-      ],
-      "predeploy": [
-        "npm --prefix \"%RESOURCE_DIR%\" run lint"
-      ]
-    }
-  ]
-}
+{"functions":[{"source":"functions","codebase":"default","ignore":["node_modules",".git","firebase-debug.log","firebase-debug.*.log"],"predeploy":["npm --prefix \"%RESOURCE_DIR%\" run lint"]}],"flutter":{"platforms":{"android":{"default":{"projectId":"messenger-f0caf","appId":"1:243551141264:android:7f5288b4b35e13dfd68715","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"messenger-f0caf","appId":"1:243551141264:ios:95a3ff120e77851ad68715","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"messenger-f0caf","configurations":{"android":"1:243551141264:android:7f5288b4b35e13dfd68715","ios":"1:243551141264:ios:95a3ff120e77851ad68715","web":"1:243551141264:web:03b32874f1f2bcb2d68715"}}}}}}

@@ -9,6 +9,7 @@ import 'package:whatsapp_messenger/feature/auth/controller/auth_controller.dart'
 import 'package:whatsapp_messenger/feature/home/pages/home_page.dart';
 import 'package:whatsapp_messenger/feature/welcome/pages/welcome_page.dart';
 import 'package:whatsapp_messenger/firebase_options.dart';
+// import 'package:whatsapp_messenger/firebase_options.dart';
 
 void main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
